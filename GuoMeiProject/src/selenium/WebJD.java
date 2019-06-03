@@ -36,8 +36,14 @@ public class WebJD {
 
         //WebDriverWait wait2 = new WebDriverWait(webDriver, 30);
         JavascriptExecutor js = (JavascriptExecutor) webDriver;
+        System.out.println(js);
 
         WebElement nextPage = webDriver.findElement(By.xpath("//*[@id=\"J_bottomPage\"]/span[1]/a[9]"));//滚动到下一页的位置并点击
+        try {
+            new Thread().sleep(30000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         webDriver.manage().timeouts().setScriptTimeout(30, TimeUnit.SECONDS);
         js.executeAsyncScript("arguments[0].scrollIntoView(true)", nextPage);
         js.executeScript("document.documentElement.scrollTop=10000");
