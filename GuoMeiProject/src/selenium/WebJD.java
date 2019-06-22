@@ -34,25 +34,23 @@ public class WebJD {
         WebElement xinpinOrder = webDriver.findElement(By.xpath("//*[@id=\"J_filter\"]/div[1]/div[1]/a[4]"));//按新品排序
         xinpinOrder.click();
 
-        //WebDriverWait wait2 = new WebDriverWait(webDriver, 30);
         JavascriptExecutor js = (JavascriptExecutor) webDriver;
-        System.out.println(js);
 
-        WebElement nextPage = webDriver.findElement(By.xpath("//*[@id=\"J_bottomPage\"]/span[1]/a[9]"));//滚动到下一页的位置并点击
+
         try {
-            new Thread().sleep(30000);
+            new Thread().sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        webDriver.manage().timeouts().setScriptTimeout(30, TimeUnit.SECONDS);
-        js.executeAsyncScript("arguments[0].scrollIntoView(true)", nextPage);
-        js.executeScript("document.documentElement.scrollTop=10000");
-        WebDriverWait wait1 = new WebDriverWait(webDriver, 30);
+//      WebElement nextPage = webDriver.findElement(By.xpath("//*[@id=\"J_bottomPage\"]/span[1]/a[9]"));//滚动到下一页的位置并点击
+        WebElement nextPage = webDriver.findElement(By.xpath("//*[@id=\"J_topPage\"]/a[2]"));//滚动到下一页的位置并点击
         nextPage.click();
-
-        //WebElement nextPage = webDriver.findElement(By.xpath("//*[@id=\"J_topPage\"]/a[2]"));
-        //nextPage.click();
-        WebElement addToCart = webDriver.findElement(By.xpath("//*[@id=\"J_goodsList\"]/ul/li[2]/div/div[7]/a[3]"));//加入购物车
+        try {
+            new Thread().sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        WebElement addToCart = webDriver.findElement(By.xpath("//*[@id=\"J_goodsList\"]/ul/li[3]/div/div[7]/a[3]"));//加入购物车
         addToCart.click();
 
 
