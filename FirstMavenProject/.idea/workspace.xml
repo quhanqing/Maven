@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0dd14302-821e-4eeb-b9fe-b6d58241451e" name="Default Changelist" comment="">
+    <list default="true" id="0dd14302-821e-4eeb-b9fe-b6d58241451e" name="Default Changelist" comment="firstMaven">
       <change afterPath="$PROJECT_DIR$/../.idea/IdeaProjects.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FirstMavenProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Driver/chromedriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Driver/geckodriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JDTest/AddCartTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Test/Test1.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../GuoMeiProject/.idea/libraries/mysql_connector_java_5_1_46_bin.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../GuoMeiProject/bingfa.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../GuoMeiProject/driver/geckodriver" afterDir="false" />
@@ -93,7 +85,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/JDTest/AddCartTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
@@ -103,15 +95,6 @@
                 <element signature="e#952#953#0" expanded="true" />
                 <element signature="e#981#982#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/testng1.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -157,9 +140,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="111" />
-    <option name="y" value="90" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="107" />
+    <option name="y" value="23" />
     <option name="width" value="1253" />
     <option name="height" value="960" />
   </component>
@@ -400,8 +383,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561260117836</updated>
-      <workItem from="1561260130129" duration="7035000" />
+      <workItem from="1561260130129" duration="7409000" />
     </task>
+    <task id="LOCAL-00001" summary="firstMaven">
+      <created>1561273960327</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1561273960327</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -437,24 +428,24 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7035000" />
+    <option name="totallyTimeSpent" value="7409000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="128" y="23" width="1253" height="960" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24938068" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18437119" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3289941" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" sideWeight="0.49958712" visible="true" weight="0.2904911" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.5004129" side_tool="true" weight="0.3289941" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3289941" />
@@ -476,23 +467,15 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="firstMaven" />
+    <option name="LAST_COMMIT_MESSAGE" value="firstMaven" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="293">
           <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/JDTest/AddCartTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#952#953#0" expanded="true" />
-            <element signature="e#981#982#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -528,8 +511,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testng1.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        <state relative-caret-position="330">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/JDTest/AddCartTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#952#953#0" expanded="true" />
+            <element signature="e#981#982#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
