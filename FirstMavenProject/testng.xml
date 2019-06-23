@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="/Users/cuikai/IdeaProjects/FirstMavenProject/src/test/java"><classes><class name="JDTest.AddCartTest"><methods><include name="addCartTest"/><include name="fireFoxBrs"/></methods></class><class name="Test.Test1"><methods><include name="Test2"/></methods></class><class name="maven.lesson1.AppTest"><methods><include name="shouldAnswerWithTrue"/></methods></class></classes></test></suite>
